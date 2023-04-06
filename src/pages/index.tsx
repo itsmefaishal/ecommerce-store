@@ -1,10 +1,16 @@
-
+import Banner from "./components/Banner"
+import Cart from "./components/Cart"
+import Layout from "./components/Layout"
+import Navbar from "./components/Navbar"
+import Products from "./components/Products"
+import FootBanner from "./components/FootBanner"
+import Footer from "./components/Footer"
 
 export default function Home() {
   return (
     <>
       <div className="hero-banner">
-        Hero Banner
+        <Banner />
       </div>
       <div className="product-heading">
         <h2>Best selling porducts</h2>
